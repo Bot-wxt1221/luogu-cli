@@ -26,7 +26,7 @@ jobs:
         git add .
         git commit -m "Update flakes"
         git remote add remote https://github.com/Bot-wxt1221/luogu-cli.git
-        git pull remote master --rebase
+        git pull remote main --rebase
     - name: Push changes
       uses: ad-m/github-push-action@master
       with:
